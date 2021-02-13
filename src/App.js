@@ -1,6 +1,9 @@
 import './App.css';
 import Navbar from './Components/Navbar';
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import Home from './Pages/Home';
+import Calendar from './Pages/Calendar';
+import ChatBot from './Pages/ChatBot';
 
 function App() {
   return (
@@ -8,7 +11,9 @@ function App() {
         <Router>
           <Navbar />
           <Switch>
-            <Route path='/'/>
+            <Route path='/' exact component={Home} />
+            <Route path='/calendar' component={Calendar} />
+            <Route path='/chatbot' component={ChatBot} />
             </Switch>
         </Router>
 

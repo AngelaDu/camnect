@@ -3,6 +3,8 @@ import * as FaIcons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai";
 import { Link, Route, Router, Switch } from 'react-router-dom';
 import { SidebarData } from './SidebarData';
+import './Navbar.css';
+import { IconContext } from 'react-icons';
 
 function Navbar() {
     const [sidebar, setSidebar] = useState(false)
@@ -10,13 +12,16 @@ function Navbar() {
     const showSidebar = () => setSidebar(!sidebar)
     return (
         <>
-            <div className= "Navbar">
+        <IconContext.Provider value = {{color: '#fff'}}>
+
+        
+            <div className= "navbar">
                 <Link to="#" className='menu-bars'>
                     <FaIcons.FaBars onClick={showSidebar}/>
                 </Link>
             </div>
             <nav className= {sidebar ? 'nav-menu active' : 'nav-menu'}>
-                <ul className = 'nav-menu-items'>
+                <ul className = 'nav-menu-items'  onClick={showSidebar}>
                     <li className = "navbar-toggle">
                         <Link to= "#" className = 'menu-bars'>
                             <AiIcons.AiOutlineClose />
@@ -34,6 +39,7 @@ function Navbar() {
                     })}
                 </ul>
             </nav>
+            </IconContext.Provider>
         </>
     )
 }
