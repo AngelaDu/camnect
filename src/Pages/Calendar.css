@@ -19,8 +19,8 @@
   font-size: 2.3rem;
   color: rgb(255, 255, 255);
   text-align: center;
-  background-color: rgb(48, 72, 113);
+  background-color: rgb(38, 81, 133);
   position: sticky;
 
-  box-shadow: 2px 2px rgb(45, 62, 93), 7px 1px 20px 10px hsl(223, 39%, 44%);
+  box-shadow: 2px 2px rgb(45, 62, 93), 7px 1px 10px 10px hsl(208, 39%, 44%);
 }
