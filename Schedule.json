@@ -1,0 +1,276 @@
+{
+  "id": "fd756df0-b008-48ac-9f0f-8aa6ada95699",
+  "name": "Schedule",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": true,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "WelcomeIntent.WelcomeIntent-custom.Moodhappy-yes.Moodhappy-yes-custom-2",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Sure, lemme check. Ah, you have 2 things due today!",
+            "You better get working mister! 4 tasks incomplete.",
+            "Woah! You have a lot due next week. Please take note.",
+            "Nah, nothing much. Your schedule looks pretty open!"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "check my schedule",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "40b08676-039d-4c0b-ba38-bfea2d227114",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "assignments",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2143291b-7ef4-4bd1-8a1d-2d1ba2850ea3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "projects",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "dad70f77-eb04-4b72-82ce-4bdf940336d7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "due ",
+          "userDefined": false
+        },
+        {
+          "text": "deadlines",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "87879907-88c9-439c-8471-ba3471f84431",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Anything due ",
+          "userDefined": false
+        },
+        {
+          "text": "today",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "767df158-77e1-490c-93ef-e901cc0b9db7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What's ",
+          "userDefined": false
+        },
+        {
+          "text": "planned",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " for the day?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "eaf2ddf3-ce68-4b64-acdf-e0ec55e49ae4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "any ",
+          "userDefined": false
+        },
+        {
+          "text": "tasks",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f7eea7d7-18c1-4787-83c7-4646cd1edd4a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "any ",
+          "userDefined": false
+        },
+        {
+          "text": "commitments",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "266a1adc-8556-4fb6-963f-e6e80ca53900",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "any ",
+          "userDefined": false
+        },
+        {
+          "text": "deadlines",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "70a31544-2129-430c-ac6b-95e21c2703c5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "any due dates?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0eb5503c-cbe1-4532-ba7b-38f4a4c6b216",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "deadlines",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "a8051594-2d73-4a20-a57a-ef8d362cab68",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What's due",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "cc8580f0-f234-4034-8f60-792d3dc0244a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What's on my ",
+          "userDefined": false
+        },
+        {
+          "text": "schedule",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "13cb93a7-7bca-4025-b517-0b9c49e8c5cf",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Schedule",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "98d11525-d6d5-4e54-9a12-b54411d76942",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

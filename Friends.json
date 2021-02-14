@@ -1,0 +1,327 @@
+{
+  "id": "2387e195-f3f7-41c6-b179-5374c50def3d",
+  "name": "Friends",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": true,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "WelcomeIntent.WelcomeIntent-custom.Moodhappy-yes.Moodhappy-yes-custom-3",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Good news buddy! Eddie and Shelly are hanging out right now.",
+            "Great timing! Rajesh and Shruti are playing Badminton.",
+            "Well, looks like Vansh and Angela have a CS club meeting right now. How about you go join them? It will be fun."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Are my ",
+          "userDefined": false
+        },
+        {
+          "text": "friends",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " free?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "81b93732-de95-436a-81df-ae4c8e71f922",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "friends",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "9ee10b86-0000-4d65-9a49-8bb5909f9e3f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Who's free?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fa2d4528-9765-4bc9-a272-78126b09b28b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What are my ",
+          "userDefined": false
+        },
+        {
+          "text": "friends",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " doing?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "061d385a-5146-43fb-8e91-d375ded361e7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Connect with ",
+          "userDefined": false
+        },
+        {
+          "text": "friends",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "6231621f-de71-47f8-8201-a9d221119ae2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hang out with ",
+          "userDefined": false
+        },
+        {
+          "text": "friends",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "0510967b-0b35-427f-8aa6-6333663dc44c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Check my ",
+          "userDefined": false
+        },
+        {
+          "text": "friends",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "' ",
+          "userDefined": false
+        },
+        {
+          "text": "schedule",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "10761b9f-bebd-40b1-95ad-d4d2e6e43c98",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "See what my ",
+          "userDefined": false
+        },
+        {
+          "text": "friends",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " are upto",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "03059cfb-1fa8-4313-96ee-32dfbd96c90c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Text ",
+          "userDefined": false
+        },
+        {
+          "text": "friends",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "a6ed2ed5-40ed-44d5-8290-ca6e4d848e98",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Meet",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "someone",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "fd23a1a6-8fc7-4f07-b8f9-10b99199fa4b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Is ",
+          "userDefined": false
+        },
+        {
+          "text": "anyone",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " available?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c7abaacd-ad41-43f2-b58d-2152aa900a27",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Do they have any cool ",
+          "userDefined": false
+        },
+        {
+          "text": "plans",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "795eea69-7ca2-4c74-9dc4-11178f4e0f70",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Do they have ",
+          "userDefined": false
+        },
+        {
+          "text": "any plans?",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "e30a6337-6dce-44c8-8b39-abee3b33b5d4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Ask to hangout",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "25694eb0-b513-4f6b-b9cd-a5fb2c9e42eb",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Send hangout request",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "97d7d0f7-549a-410d-bed3-6d48cbf21ec8",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

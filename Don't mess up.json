@@ -1,0 +1,309 @@
+{
+  "id": "9d592981-3208-4910-983f-3b81b0220cf0",
+  "name": "Don't mess up",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": true,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "feelings",
+          "dataType": "@Feelings",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$feelings",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "person",
+          "dataType": "@sys.person",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$person",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "color",
+          "dataType": "@sys.color",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$color",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Aw. Sorry buddy, already taken !",
+            "Not even if you're the last person on Earth",
+            "Nice try! I'm committed."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "You are ",
+          "userDefined": false
+        },
+        {
+          "text": "really",
+          "userDefined": false,
+          "alias": "feelings",
+          "meta": "@Feelings"
+        },
+        {
+          "text": " pretty",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "185a7697-2514-4e46-87ad-29171439a431",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "dark eyes",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7eece0bd-ee4f-4eb9-95d2-56ee528ed79e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I like your deep ",
+          "userDefined": false
+        },
+        {
+          "text": "blue",
+          "userDefined": false,
+          "alias": "color",
+          "meta": "@sys.color"
+        },
+        {
+          "text": " eyes",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c75677e2-bab5-4b24-9aac-3d9a79c91fb2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Fuck off",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3f00e8b8-214b-4903-8d67-9577ff7608bd",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Bite me",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1836e47f-072c-4bec-90e2-c78aa6d0c634",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Fuck u",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c13aee66-6923-4558-a63e-010e3c21b1e4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Will you marry me?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4f9e2323-a41a-4292-bf3c-d822cbee3997",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Will you be my Valentine, ",
+          "userDefined": false
+        },
+        {
+          "text": "Smriti",
+          "userDefined": false,
+          "alias": "person",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9bc4f5eb-ef61-40ed-8906-05bea1549bbb",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you're hot",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "93128f91-5d30-4c07-8f97-b4db1da5f5f3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "you are sexy",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9841391d-bb94-40a2-8d52-c1f9017cdcad",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I have a crush on you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9766377a-dca1-4892-a5e9-b9ac2af53aab",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I ",
+          "userDefined": false
+        },
+        {
+          "text": "love",
+          "userDefined": false,
+          "alias": "feelings",
+          "meta": "@Feelings"
+        },
+        {
+          "text": " you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0035469c-e211-4b09-ab3e-a8e1e4f7ba33",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Love",
+          "userDefined": false,
+          "alias": "feelings",
+          "meta": "@Feelings"
+        },
+        {
+          "text": " you ",
+          "userDefined": false
+        },
+        {
+          "text": "Smriti",
+          "userDefined": false,
+          "alias": "person",
+          "meta": "@sys.person"
+        }
+      ],
+      "count": 0,
+      "id": "532c381b-35b4-46e1-8aff-be247af04270",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Happy",
+          "userDefined": false,
+          "alias": "feelings",
+          "meta": "@Feelings"
+        },
+        {
+          "text": " Valentines",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "894de26a-6e6c-4883-a270-1684e87ed544",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}
