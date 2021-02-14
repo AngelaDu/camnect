@@ -5,6 +5,8 @@ import { Link, Route, Router, Switch } from 'react-router-dom';
 import { SidebarData } from './SidebarData';
 import './Navbar.css';
 import { IconContext } from 'react-icons';
+import LoginButton from '../Pages/Components/LoginButton';
+import LogoutButton from '../Pages/Components/LogoutButton';
 
 function Navbar() {
     const [sidebar, setSidebar] = useState(false)
@@ -19,6 +21,8 @@ function Navbar() {
                 <Link to="#" className='menu-bars'>
                     <FaIcons.FaBars onClick={showSidebar}/>
                 </Link>
+                <LoginButton />
+                <LogoutButton />
             </div>
             <nav className= {sidebar ? 'nav-menu active' : 'nav-menu'}>
                 <ul className = 'nav-menu-items'  onClick={showSidebar}>
