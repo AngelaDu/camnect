@@ -8,6 +8,7 @@
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.7.1",
     "array.prototype.flat": "^1.2.4",
+    "axios": "^0.21.1",
     "kill-port": "^1.6.1",
     "moment": "^2.29.1",
     "react": "^16.14.0",

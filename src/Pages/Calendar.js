@@ -24,7 +24,7 @@ function Calendar() {
                 Calendar
             </div>
         
-        <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '70h'}}>
+        <div className='google_calendar' style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '70h'}}>
             
             <iframe src= { final_linked } 
             width = "800px"
