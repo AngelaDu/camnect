@@ -1,6 +1,7 @@
 Watch our demo!
 
-https://www.youtube.com/watch?v=tkj9ajfV5nQ
+https://user-images.githubusercontent.com/38049339/118464311-b4eed000-b6ce-11eb-9894-e699be3eb5f6.mp4
+
 
 ## Inspiration
 Our project was the product of much deliberation, as we all had several ideas which we went over. The final idea essentially combines our final 4 remaining ideas as features in which we could combine them into one insane web app!
