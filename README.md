@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+Watch our demo!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+https://www.youtube.com/watch?v=tkj9ajfV5nQ
 
-## Available Scripts
+## Inspiration
+Our project was the product of much deliberation, as we all had several ideas which we went over. The final idea essentially combines our final 4 remaining ideas as features in which we could combine them into one insane web app!
 
-In the project directory, you can run:
+## What it does
+There are four main features to go over:
+1. Machine learning spotify song picker
+2. Chat bot
+3. Match your schedule with your friends
+4. Implement a plan with a calendar
 
-### `npm start`
+## How we built it
+We built it through the power of sheer determination and will... as well as a caffeine driven coding marathon... ok besides the point: We used react for the front end, formatting everything through the use of Javascript and CSS. The calendar and chat bot are embedded within the react files itself.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Challenges we ran into
+Each member of our group ran into several challenges:
+1. Angela - I worked mainly on the frontend, I hadn’t embedded any files before and suddenly I had to do it twice. On both occasions the given code was incorrect, the formatting was wrong and I had to figure out the issue and fix them myself. In addition, we had to learn how to connect the React frontend and Python backends as none of us have done it before~
+2. Smriti - I worked mainly on the backend, trying to get the machine learning algorithms to work and also working with google cloud to get the databases running to host the website. It was really hard for me to find and connect Spotify APIs, along with figuring out the login credentials. I had to install several libraries that I was using for the first time and learn as quickly as I can. 
+3. Vansh - In order to work with each user's google calendar, I had to integrate the OAuth authentication into the web application using the API Client ID. I ran into numerous errors while trying to accept the permission credentials from the user. I had to go through multiple tutorials describing the various reasons for the occurrence of the error, which improved my understand of APIs by fourfold. I solved this by editing the API Client ID to desktop app mode.
